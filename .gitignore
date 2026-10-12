@@ -1,0 +1,96 @@
+# ==========================
+# 操作系统 (OS) 生成的文件
+# ==========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Synology (群晖)
+@eaDir/
+*@SynoResource
+*@SynoEAStream
+
+# ==========================
+# 编辑器 & IDE 配置文件
+# ==========================
+# VS Code (通常不需要上传本地配置，除非团队强制规范)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (WebStorm, IDEA, PyCharm)
+.idea/
+*.iml
+
+# Vim / Sublime / Emacs
+*.swp
+*.swo
+*.sublime-workspace
+
+# ==========================
+# 常见博客/Web 依赖 (根据你的技术栈选择)
+# ==========================
+# Node.js (Hexo, Gatsby, VuePress, Next.js 等)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# Python (MkDocs, Pelican 等)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Ruby (Jekyll)
+.sass-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# ==========================
+# 构建输出 & 临时文件 (非常重要)
+# ==========================
+# 静态博客生成的最终网页 (Hexo/Hugo/Jekyll 通常生成在这些目录)
+public/
+dist/
+build/
+_site/
+
+# Hexo 特有
+.deploy_git/
+db.json
+
+# Hugo 特有
+resources/_gen/
+
+# 临时文件夹
+tmp/
+temp/
+
+# ==========================
+# 安全与日志
+# ==========================
+# 环境变量 (包含密钥，绝对不能上传)
+.env
+.env.local
+.env.*.local
+
+# 各种日志文件
+*.log
